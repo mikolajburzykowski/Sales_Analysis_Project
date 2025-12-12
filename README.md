@@ -58,23 +58,23 @@ It is recommended to use a Python virtual environment.
 
 #### macOS / Linux
 
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 #### Windows
-
+```
 python -m venv .venv
 .\.venv\Scripts\activate
-
+```
 2. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 3. Run the script
-
+```
 python sales_analysis.py
-
+```
 This will:
 
 - print a KPI summary to the console
@@ -82,9 +82,9 @@ This will:
 - save charts into sales_project/*.png
 
 4. (Optional) Run the notebook
-
+```
 jupyter notebook sales_analysis.ipynb
-
+```
 This is useful if you prefer to walk through the analysis step by step or explore the code interactively.
 
 ### Additional notes
@@ -93,3 +93,4 @@ All data in this project is synthetic and included only for demonstration.
 
 
 The project is intentionally simple and aims to showcase basic data analysis skills in Python.
+
